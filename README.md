@@ -15,6 +15,12 @@ Official Windows installers and DeskThing companion bundles for
 [Website downloads and setup](https://www.ilystream.app/download) ·
 [Version 0.1.9 release notes](https://github.com/ilydrw/ilyStream-Releases/releases/tag/v0.1.9)
 
+Windows installer: **136,458,953 bytes**. SHA-256:
+
+```text
+d709be6f9085aa8d749854ae62b8fc6e17fe75c40ea17214179c6753fefb6a4e
+```
+
 ## Requirements
 
 - Windows 11 (build 22000 or newer), Intel or AMD x64.
