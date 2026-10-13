@@ -5,15 +5,15 @@ Official Windows installers and DeskThing companion bundles for
 
 [Download the latest release](https://github.com/ilydrw/ilyStream-Releases/releases/latest)
 
-## Version 0.1.8
+## Version 0.1.9
 
 | Download | Checksum |
 | --- | --- |
-| [Windows installer](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.1.8/ilyStream-Setup-0.1.8-windows-x64.exe) | [SHA-256](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.1.8/ilyStream-Setup-0.1.8-windows-x64.exe.sha256) |
-| [DeskThing companion ZIP](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.1.8/ilystream-deskthing-0.1.8.zip) | [SHA-256](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.1.8/ilystream-deskthing-0.1.8.zip.sha256) |
+| [Windows installer](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.1.9/ilyStream-Setup-0.1.9-windows-x64.exe) | [SHA-256](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.1.9/ilyStream-Setup-0.1.9-windows-x64.exe.sha256) |
+| [DeskThing companion ZIP](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.1.9/ilystream-deskthing-0.1.9.zip) | [SHA-256](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.1.9/ilystream-deskthing-0.1.9.zip.sha256) |
 
 [Website downloads and setup](https://www.ilystream.app/download) ·
-[Version 0.1.8 release notes](https://github.com/ilydrw/ilyStream-Releases/releases/tag/v0.1.8)
+[Version 0.1.9 release notes](https://github.com/ilydrw/ilyStream-Releases/releases/tag/v0.1.9)
 
 ## Requirements
 
