@@ -48,17 +48,40 @@ DeskThing's app discovery. The release includes `ilystream.json` discovery
 metadata and the `ilystream.zip` install alias. Use DeskThing server 0.11.13 or
 later and client 0.11.2 or later.
 
-Upgrading from companion 0.0.28 requires importing the 0.1.8 ZIP once through
-DeskThing. Its older update address points to the previous source repository,
+Upgrading from companion 0.0.28 requires importing a current companion ZIP
+(v0.1.8 or newer) once through DeskThing. Its older update address points to the
+previous source repository,
 so it cannot discover this release automatically. The app ID remains `ilystream`;
 the new bundle uses this public repository for future update discovery.
 
-In the Windows app, open **Connect → Hardware → DeskThing**, enable **Remote
-control**, and choose **Pair new device**. Enter the displayed address and
-six-digit code in the companion. The device and PC use your local network;
+In the Windows app, open **Connect → Hardware → DeskThing**, choose **Switch on
+Remote control** if needed, then **Pair new device**. Enter the displayed address
+and six-digit code in the companion. The device and PC use your local network;
 pairing does not need a cloud account.
 
+Starting with companion v0.1.9, Chat filters individual TikTok Like rows before
+history limits so bursts do not crowd out messages. Aggregate Likes statistics
+remain available. Install the matching ZIP through DeskThing to use the update.
+
 [DeskThing installation and pairing guide](https://www.ilystream.app/docs/connect/deskthing/)
+
+## Phone controller
+
+Native v0.1.9 adds a controller for phone and tablet browsers. On the PC, open
+**Settings → Network & Overlays**, enable **Remote control**, and choose
+**Phone controller → Pair phone**. Use **Copy controller address**, open that
+address on the phone, and enter the temporary six-digit code and a device name.
+Choose **Pair and connect**. The code expires after five minutes and can be used
+once; the copied address contains no token.
+
+Keep the phone and PC on the same trusted network and allow the displayed remote
+port through Windows Firewall. Use the PC's LAN address, not `127.0.0.1` on the
+phone. Device access can be revoked under the same Network settings.
+
+The controller provides live chat and application state, scene Take/Cut, mixer,
+source, recording, replay, soundboard, and voice controls. Output labels follow
+the computer's actual state; a queued command does not mean an output is active.
+The computer runs the broadcast. Phone camera/microphone input is separate.
 
 ## Release files
 
