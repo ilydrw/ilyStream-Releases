@@ -5,27 +5,31 @@ Official Windows installers and DeskThing companion bundles for
 
 [Download the latest release](https://github.com/ilydrw/ilyStream-Releases/releases/latest)
 
-## Version 0.2.1
+## Version 0.2.3
 
 | Download | Checksum |
 | --- | --- |
 | [Microsoft Store edition](https://apps.microsoft.com/detail/9MSMPP5FB6CT) | Microsoft-managed installation and updates |
-| [Windows installer (.exe)](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.2.1/ilyStream-Setup-0.2.1-windows-x64.exe) | [SHA-256](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.2.1/ilyStream-Setup-0.2.1-windows-x64.exe.sha256) |
-| [DeskThing companion ZIP](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.2.1/ilystream-deskthing-0.2.1.zip) | [SHA-256](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.2.1/ilystream-deskthing-0.2.1.zip.sha256) |
+| [Windows installer (.exe)](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.2.3/ilyStream-Setup-0.2.3-windows-x64.exe) | [SHA-256](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.2.3/ilyStream-Setup-0.2.3-windows-x64.exe.sha256) |
+| [DeskThing companion ZIP](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.2.3/ilystream-deskthing-0.2.3.zip) | [SHA-256](https://github.com/ilydrw/ilyStream-Releases/releases/download/v0.2.3/ilystream-deskthing-0.2.3.zip.sha256) |
 
 [Website downloads and setup](https://ilystream.app/download) ·
-[Version 0.2.1 release notes](https://github.com/ilydrw/ilyStream-Releases/releases/tag/v0.2.1)
+[Version 0.2.3 release notes](https://github.com/ilydrw/ilyStream-Releases/releases/tag/v0.2.3)
 
-Windows installer: **139,043,253 bytes**. SHA-256:
+Windows installer: **140,560,067 bytes**. SHA-256:
 
 ```text
-0c902fca62fca370f880af2a7d172e390a5d66413d4ec81b9b7005109b24370a
+4eff84680467e1a948b88fca6e3e0f156e506ac6853bc1aafd54604a71191b0d
 ```
 
-This Windows preview adds interface languages and creator themes, improves
-scene-controlled media and transitions, and expands widget customization and
-settings recovery. Install the matching DeskThing companion v0.2.1 alongside
-the desktop update.
+This Windows preview adds standalone Game Capture, expanded scene transitions,
+recording pause and layout choices, push-to-talk and push-to-mute, custom SRT
+output, stream delay and bitrate history. Install the matching DeskThing
+companion v0.2.3 for recording/replay, Preview/Program Take/Cut, mixer and source
+controls that follow confirmed desktop state.
+
+The Store update has been submitted and is in certification. Store customers
+remain on v0.2.2 until Microsoft finishes certification and publication.
 
 The Store edition uses Microsoft's update schedule and does not include virtual
 camera output. Choose the EXE installer for virtual camera output and ilyStream's
@@ -75,7 +79,7 @@ The app ID remains `ilystream`; the new bundle uses this public repository for
 future update discovery.
 
 On the PC running both ilyStream and the DeskThing server, open
-**Connect → Hardware → DeskThing**, choose **Switch on Remote control** if
+**Connect → DeskThing**, choose **Switch on Remote control** if
 needed, then **Pair new device**. In the companion's DeskThing settings, use
 `127.0.0.1:3738` (or the configured remote-control port) and enter the displayed
 six-digit code. The DeskThing server sends these requests from the PC; the
